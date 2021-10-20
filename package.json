@@ -2,7 +2,7 @@
   "name": "drop_a_nickel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://abyer422.github.io/drop_a_nickel",
+  "homepage": "https://abyer422.github.io/drop_a_nickel",
   "dependencies": {
     "-": "0.0.1",
     "@material-ui/core": "^4.12.3",
