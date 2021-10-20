@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/drop_a_nickel/static/css/main.3b9cffc3.chunk.css",
-    "main.js": "/drop_a_nickel/static/js/main.faaed96b.chunk.js",
-    "main.js.map": "/drop_a_nickel/static/js/main.faaed96b.chunk.js.map",
-    "runtime-main.js": "/drop_a_nickel/static/js/runtime-main.10c3f1f6.js",
-    "runtime-main.js.map": "/drop_a_nickel/static/js/runtime-main.10c3f1f6.js.map",
-    "static/js/2.4029d136.chunk.js": "/drop_a_nickel/static/js/2.4029d136.chunk.js",
-    "static/js/2.4029d136.chunk.js.map": "/drop_a_nickel/static/js/2.4029d136.chunk.js.map",
-    "index.html": "/drop_a_nickel/index.html",
-    "static/css/main.3b9cffc3.chunk.css.map": "/drop_a_nickel/static/css/main.3b9cffc3.chunk.css.map",
-    "static/js/2.4029d136.chunk.js.LICENSE.txt": "/drop_a_nickel/static/js/2.4029d136.chunk.js.LICENSE.txt",
-    "static/media/Billy.674c74a4.jpg": "/drop_a_nickel/static/media/Billy.674c74a4.jpg",
-    "static/media/Billy2.c31a77f3.jpg": "/drop_a_nickel/static/media/Billy2.c31a77f3.jpg",
-    "static/media/bowlingHome2.92bc7463.jpg": "/drop_a_nickel/static/media/bowlingHome2.92bc7463.jpg",
-    "static/media/bowlingLogo.cc826c0e.png": "/drop_a_nickel/static/media/bowlingLogo.cc826c0e.png"
+    "main.css": "/Drop_a_nickel/static/css/main.3b9cffc3.chunk.css",
+    "main.js": "/Drop_a_nickel/static/js/main.faaed96b.chunk.js",
+    "main.js.map": "/Drop_a_nickel/static/js/main.faaed96b.chunk.js.map",
+    "runtime-main.js": "/Drop_a_nickel/static/js/runtime-main.d724b483.js",
+    "runtime-main.js.map": "/Drop_a_nickel/static/js/runtime-main.d724b483.js.map",
+    "static/js/2.4029d136.chunk.js": "/Drop_a_nickel/static/js/2.4029d136.chunk.js",
+    "static/js/2.4029d136.chunk.js.map": "/Drop_a_nickel/static/js/2.4029d136.chunk.js.map",
+    "index.html": "/Drop_a_nickel/index.html",
+    "static/css/main.3b9cffc3.chunk.css.map": "/Drop_a_nickel/static/css/main.3b9cffc3.chunk.css.map",
+    "static/js/2.4029d136.chunk.js.LICENSE.txt": "/Drop_a_nickel/static/js/2.4029d136.chunk.js.LICENSE.txt",
+    "static/media/Billy.674c74a4.jpg": "/Drop_a_nickel/static/media/Billy.674c74a4.jpg",
+    "static/media/Billy2.c31a77f3.jpg": "/Drop_a_nickel/static/media/Billy2.c31a77f3.jpg",
+    "static/media/bowlingHome2.92bc7463.jpg": "/Drop_a_nickel/static/media/bowlingHome2.92bc7463.jpg",
+    "static/media/bowlingLogo.cc826c0e.png": "/Drop_a_nickel/static/media/bowlingLogo.cc826c0e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.10c3f1f6.js",
+    "static/js/runtime-main.d724b483.js",
     "static/js/2.4029d136.chunk.js",
     "static/css/main.3b9cffc3.chunk.css",
     "static/js/main.faaed96b.chunk.js"
