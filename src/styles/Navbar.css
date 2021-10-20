@@ -1,0 +1,34 @@
+.navbar {
+  background-color: darkred;
+  display: flex;
+  flex-direction: row;
+  font-size: .75em;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  width: 70px;
+}
+
+.navbar .rightSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.navbar a:hover {
+  color: black;
+  transition: .5s ease-in-out;
+}

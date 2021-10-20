@@ -1,0 +1,28 @@
+.wrapper {
+  height: inherit;
+  display: flex;
+}
+
+.wrapper .leftSide {
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .rightSide {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+
+.wrapper .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: whitesmoke;
+}

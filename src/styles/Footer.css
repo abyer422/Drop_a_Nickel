@@ -1,0 +1,29 @@
+.footer {
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.socialMedia svg {
+  color: whitesmoke;
+  margin: 1.5vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer p {
+  color: whitesmoke;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.socialMedia svg:hover {
+  color:  black;
+  transition: .5s ease-in-out;
+}

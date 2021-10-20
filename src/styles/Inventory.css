@@ -1,0 +1,30 @@
+.inventory {
+  height: inherit;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: scroll;
+}
+
+.inventory img {
+  height: 200px;
+}
+
+.inventory div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkred;
+  height: 40%;
+  color: black;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inventory p {
+  color: whitesmoke;
+}
