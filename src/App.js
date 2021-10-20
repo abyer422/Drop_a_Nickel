@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Drop_a_nickel">
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
