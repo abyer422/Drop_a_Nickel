@@ -1,5 +1,5 @@
 .inventory {
-  height: inherit;
+  height: 100vh;
   color: whitesmoke;
   display: flex;
   flex-wrap: wrap;
@@ -9,16 +9,20 @@
   overflow: scroll;
 }
 
+.inventory h1 {
+  font-size: 2rem;
+}
+
 .inventory img {
-  height: 200px;
+  height: 20vh;
 }
 
 .inventory div {
-  margin-top: 20px;
+  margin-top: 2vh;
   display: flex;
   flex-direction: column;
   background-color: darkred;
-  height: 40%;
+  height: 40vh;
   color: black;
   width: 300px;
   justify-content: center;
@@ -27,4 +31,49 @@
 
 .inventory p {
   color: whitesmoke;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .inventory h1 {
+    font-size: .75rem;
+  }
+
+  .inventory img {
+    height: 10vh;
+  }
+
+  .inventory div {
+    height: 20vh;
+    width: 100px;
+  }
+
+  .inventory p {
+    font-size: .5rem;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .inventory h1 {
+    font-size: 1rem;
+  }
+
+  .inventory div {
+    height: 35vh;
+    width: 150px;
+  }
+
+  .inventory p {
+    font-size: .75rem;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .inventory {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .inventory img {
+    height: 18vh;
+  }
 }

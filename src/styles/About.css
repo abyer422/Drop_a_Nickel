@@ -1,5 +1,5 @@
 .wrapper {
-  height: inherit;
+  height: 100vh;
   display: flex;
 }
 
@@ -25,4 +25,20 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .rightSide {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .wrapper .rightSide {
+    font-size: .5rem;
+  }
+
+  .wrapper .leftSide {
+    background-size: contain;
+  }
 }

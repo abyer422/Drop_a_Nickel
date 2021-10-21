@@ -2,7 +2,7 @@
   background-color: darkred;
   display: flex;
   flex-direction: row;
-  font-size: .75em;
+  font-size: 2vw;
 }
 
 .navbar .leftSide {
@@ -31,4 +31,24 @@
 .navbar a:hover {
   color: black;
   transition: .5s ease-in-out;
+}
+
+@media screen and (max-width:  700px) {
+  .navbar {
+  font-size: .75em;
+}
+
+.navbar img {
+  width: 35px;
+}
+
+.navbar a {
+  margin: 10px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar {
+    font-size: 20px;
+  }
 }
