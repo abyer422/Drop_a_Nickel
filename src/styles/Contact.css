@@ -1,14 +1,14 @@
 .contact {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
 }
 
 .contact .leftSide {
-  flex: 75%;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .contact .rightSide h1 {
@@ -29,6 +29,11 @@ form input {
   border-bottom: 1px solid #121619;
   align-self: center;
   width: 50%;
+}
+
+form small {
+  color: whitesmoke;
+  align-self: center;
 }
 
 form textarea {
@@ -109,9 +114,9 @@ form button:hover {
   }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 850px) {
   .contact .leftSide {
-    height: 200px;
+    /*height: 200px;*/
   }
 
   .contact .rightSide h1 {

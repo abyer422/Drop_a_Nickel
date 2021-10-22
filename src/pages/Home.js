@@ -9,10 +9,15 @@ function Home() {
 			<div className="headerContainer">
 				<h1> Welcome to Drop a Nickel Pro Shop </h1>
 				<p> For all of your professional bowling needs! </p>
-				<Link to="/about">
-					<button> Find out more </button>
-				</Link>
-			</div>
+				<div className="Links">
+					<Link to="/about">
+						<button> About Me</button>
+					</Link>
+					<Link to="/inventory">
+						<button> Inventory </button>
+					</Link>	
+				</div>
+			</div>	
 		</div>
 	)
 }

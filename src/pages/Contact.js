@@ -16,6 +16,9 @@ function Contact() {
 					<input name="name" placeholder="Enter full name..." type="text" />
 					<label htmlFor="email">Email</label>
 					<input name="email" placeholder="Enter email..." type="email" />
+					<label htmlFor="phone">Phone Number</label>
+					<input name="phone" placeholder="123-456-7890" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+					<small>Format: 123-456-7890</small>
 					<label htmlFor="message">Message</label>
 					<textarea 
 						rows="6" 

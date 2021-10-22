@@ -5,15 +5,15 @@
   align-items: center;
   flex-direction: column;
   padding-top: 5px;
+  border-top-style: solid;
+  border-top-color: black;
 }
 
-.socialMedia svg {
-  color: whitesmoke;
-  margin: 1.5vw;
-  margin-top: 0px;
+.footer button {
+  color: darkred;
   margin-bottom: 0px;
-  font-size: 2rem;
   cursor: pointer;
+  background-color: black;
 }
 
 .footer p {
@@ -23,18 +23,9 @@
   font-size: 1.5rem;
 }
 
-.socialMedia svg:hover {
-  color:  black;
-  transition: .5s ease-in-out;
-}
-
 @media screen and (max-width: 600px) {
   .footer {
   padding-top: 2px;
-  }
-
-  .socialMedia svg {
-    font-size: 1.25rem;
   }
 
   .footer p {
@@ -45,10 +36,6 @@
 @media screen and (max-height: 600px) {
   .footer {
   padding-top: 2px;
-  }
-
-  .socialMedia svg {
-    font-size: 1.25rem;
   }
 
   .footer p {

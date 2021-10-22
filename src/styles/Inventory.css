@@ -4,12 +4,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
   overflow: scroll;
+  background-color: darkred;
 }
 
 .inventory h1 {
+  color: whitesmoke;
   font-size: 2rem;
 }
 
@@ -19,9 +19,11 @@
 
 .inventory div {
   margin-top: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   display: flex;
   flex-direction: column;
-  background-color: darkred;
+  background-color: black;
   height: 40vh;
   color: black;
   width: 300px;
@@ -32,6 +34,12 @@
 .inventory p {
   color: whitesmoke;
   font-size: 1rem;
+}
+
+.inventory button {
+  background-color: darkred;
+  color: black;
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,6 +54,10 @@
   .inventory div {
     height: 20vh;
     width: 100px;
+  }
+
+  .inventory button {
+    font-size: .75rem;
   }
 
   .inventory p {
