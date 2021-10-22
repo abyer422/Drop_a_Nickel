@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Drop_a_nickel/static/css/main.e8dcf1e4.chunk.css",
-    "main.js": "/Drop_a_nickel/static/js/main.159e4e74.chunk.js",
-    "main.js.map": "/Drop_a_nickel/static/js/main.159e4e74.chunk.js.map",
+    "main.css": "/Drop_a_nickel/static/css/main.077f60e1.chunk.css",
+    "main.js": "/Drop_a_nickel/static/js/main.6f192ef0.chunk.js",
+    "main.js.map": "/Drop_a_nickel/static/js/main.6f192ef0.chunk.js.map",
     "runtime-main.js": "/Drop_a_nickel/static/js/runtime-main.d724b483.js",
     "runtime-main.js.map": "/Drop_a_nickel/static/js/runtime-main.d724b483.js.map",
     "static/js/2.20d73292.chunk.js": "/Drop_a_nickel/static/js/2.20d73292.chunk.js",
     "static/js/2.20d73292.chunk.js.map": "/Drop_a_nickel/static/js/2.20d73292.chunk.js.map",
     "index.html": "/Drop_a_nickel/index.html",
-    "static/css/main.e8dcf1e4.chunk.css.map": "/Drop_a_nickel/static/css/main.e8dcf1e4.chunk.css.map",
+    "static/css/main.077f60e1.chunk.css.map": "/Drop_a_nickel/static/css/main.077f60e1.chunk.css.map",
     "static/js/2.20d73292.chunk.js.LICENSE.txt": "/Drop_a_nickel/static/js/2.20d73292.chunk.js.LICENSE.txt",
     "static/media/Billy.674c74a4.jpg": "/Drop_a_nickel/static/media/Billy.674c74a4.jpg",
     "static/media/Billy2.c31a77f3.jpg": "/Drop_a_nickel/static/media/Billy2.c31a77f3.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d724b483.js",
     "static/js/2.20d73292.chunk.js",
-    "static/css/main.e8dcf1e4.chunk.css",
-    "static/js/main.159e4e74.chunk.js"
+    "static/css/main.077f60e1.chunk.css",
+    "static/js/main.6f192ef0.chunk.js"
   ]
 }
