@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Inventory from './pages/Inventory';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import UploadForm from './pages/uploadForm';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/inventory" exact component={Inventory} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
+          <Route path="/uploadform" exact component={UploadForm} />
         </Switch>
         <Footer />
       </Router>

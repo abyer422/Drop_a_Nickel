@@ -1,91 +1,46 @@
-.inventory {
-  height: 100vh;
+.inv-wrap {
+  height: 100%;
   color: whitesmoke;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   overflow: scroll;
-  background-color: darkred;
+  text-align: center;
 }
 
-.inventory h1 {
-  color: whitesmoke;
-  font-size: 2rem;
+.inv-wrap img {
+  width: 50%;
 }
 
-.inventory img {
-  height: 20vh;
+.inv-grid {
+  width: 98%;
+  height: fit-content;
+  text-align: center;
+  margin: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 6px;
 }
 
-.inventory div {
-  margin-top: 2vh;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  height: 40vh;
-  color: black;
-  width: 300px;
-  justify-content: center;
-  align-items: center;
-}
-
-.inventory p {
-  color: whitesmoke;
-  font-size: 1rem;
-}
-
-.inventory button {
-  background-color: darkred;
-  color: black;
-  margin-right: 15px;
+.inv-wrap1 {
+  border: solid darkred;
 }
 
 @media screen and (max-width: 600px) {
-  .inventory h1 {
-    font-size: .75rem;
+  
+  .inv-wrap1 {
+    font-size: 10px;
   }
 
-  .inventory img {
-    height: 10vh;
-  }
-
-  .inventory div {
-    height: 20vh;
-    width: 100px;
-  }
-
-  .inventory button {
-    font-size: .75rem;
-  }
-
-  .inventory p {
-    font-size: .5rem;
+  .inv-wrap1 button {
+    font-size: 8px;
   }
 }
 
 @media screen and (max-height: 600px) {
-  .inventory h1 {
-    font-size: 1rem;
+  
+  .inv-wrap1 {
+    font-size: 10px;
   }
 
-  .inventory div {
-    height: 35vh;
-    width: 150px;
-  }
-
-  .inventory p {
-    font-size: .75rem;
-  }
-}
-
-@media screen and (max-height: 400px) {
-  .inventory {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .inventory img {
-    height: 18vh;
+  .inv-wrap1 button {
+    font-size: 8px;
   }
 }
