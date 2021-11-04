@@ -47,11 +47,12 @@ input[type=radio] {
 }
 
 .form button {
-	width: 10%;
+	/*width: 10%;*/
 	align-self: center;
 	background-color: darkred;
 	color: black;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	font-size: 1.25rem;
 }
