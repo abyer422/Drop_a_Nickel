@@ -1,6 +1,5 @@
 .navbar {
   background-color: darkred;
-  height: 70px;
   display: flex;
   flex-direction: row;
   border-bottom-color: black;
@@ -9,7 +8,7 @@
 
 .navbar .home {
   flex: 33%;
-  height: 70px;
+  height: 50px;
   display: flex;
   align-items: center;
 }

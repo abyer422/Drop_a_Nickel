@@ -22,7 +22,9 @@ const UploadForm = () => {
 	}
 
 	return (
-		<form id="Inv">
+		<form className="form" id="Inv">
+
+			<div className="upload-center">Choose a category</div>
 
 			<div className="radio">
 				<label htmlFor="balls">Balls</label>
@@ -62,7 +64,7 @@ const UploadForm = () => {
 			<div className="radio">
 				<label htmlFor="new">New</label>
 					<input
-						id="status1"
+						id="new"
 						name="status"
 						type="radio"
 						value="New"
@@ -70,10 +72,11 @@ const UploadForm = () => {
 
 				<label htmlFor="used">Used</label>
 					<input
-						id="status2"
+						id="used"
 						name="status"
 						type="radio"
-						value="Used" />
+						value="Used"
+						required />
 			</div>
 
 			<label htmlFor="description">Description</label>

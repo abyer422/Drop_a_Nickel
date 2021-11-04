@@ -40,50 +40,53 @@ function Contact() {
 				style={{ backgroundImage: `url(${Billy2})` }} >
 			</div>
 			<div className="rightSide">
-				<h1> Contact Me </h1>
-				<form id="contact-form" onSubmit={handleSubmit(onSubmit)} >
+				<div className="contact-form">
+					<h1> Contact Me </h1>
+					
+					<form id="contact-form" onSubmit={handleSubmit(onSubmit)} >
 
-					<input type="hidden" name="contact_number" value={contactNumber} />
-					
-					<label htmlFor="name">Full Name</label>
-					<input 
-						name="name" 
-						placeholder="Enter full name..." 
-						type="text" 
-						maxLength='30' 
-						required />
-					
-					<label htmlFor="email">Email</label>
-					<input 
-						name="email" 
-						placeholder="Enter email..." 
-						type="email" 
-						maxLength='50' 
-						required />
-					
-					<label htmlFor="phone">Phone Number</label>
-					<input 
-						name="phone" 
-						placeholder="123-456-7890" 
-						type="tel" 
-						pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
-						maxLength='30' 
-						required />
-					<small>Format: 123-456-7890</small>
-					
-					<label htmlFor="message">Message</label>
-					<textarea 
-						rows="6" 
-						placeholder="Enter message..." 
-						name="message"
-						maxLength='1500' 
-						required 
-						{...register("message")} >
-					</textarea>
-					<p>{messageCharsLeft} characters left </p>
-					
-					<button type="submit"> Send Message </button>
-				</form>
+						<input type="hidden" name="contact_number" value={contactNumber} />
+						
+						<label htmlFor="name">Full Name</label>
+						<input 
+							name="name" 
+							placeholder="Enter full name..." 
+							type="text" 
+							maxLength='30' 
+							required />
+						
+						<label htmlFor="email">Email</label>
+						<input 
+							name="email" 
+							placeholder="Enter email..." 
+							type="email" 
+							maxLength='50' 
+							required />
+						
+						<label htmlFor="phone">Phone Number</label>
+						<input 
+							name="phone" 
+							placeholder="123-456-7890" 
+							type="tel" 
+							pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+							maxLength='30' 
+							required />
+						<small>Format: 123-456-7890</small>
+						
+						<label htmlFor="message">Message</label>
+						<textarea 
+							rows="6" 
+							placeholder="Enter message..." 
+							name="message"
+							maxLength='1500' 
+							required 
+							{...register("message")} >
+						</textarea>
+						<p>{messageCharsLeft} characters left </p>
+						
+						<button type="submit"> Send Message </button>
+					</form>
+				</div>
 			</div>
 		</div>
 	)
