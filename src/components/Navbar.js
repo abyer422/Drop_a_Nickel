@@ -15,7 +15,9 @@ function Navbar() {
 				</Link>
 			</div>
 			<div className="center">
-				<img src={Logo} alt="Logo" />
+				<Link to="/uploadform">
+					<img src={Logo} alt="Logo" />
+				</Link>	
 			</div>
 			<div className="rightSide">
 				<a href="https://www.instagram.com/teamnickel_drpankl/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
