@@ -10,7 +10,7 @@ import '../styles/Navbar.css';
 function Navbar() {
 	return (
 		<div className="navbar">
-			<div className="home">
+			<div className="leftSide">
 				<Link className="link" to="/">
 					<HomeIcon />
 				</Link>

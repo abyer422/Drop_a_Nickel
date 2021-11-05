@@ -101,7 +101,14 @@ form button:hover {
   transition: 0.3s ease-in;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 600px) {
+  .contact .rightSide h1 {
+    font-size: 1em;
+  }
+
+  .contact form {
+    padding: 2px;
+  }
 }
 
 @media screen and (min-width: 1450px) {
