@@ -6,6 +6,8 @@ import Inventory from './pages/Inventory';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import UploadForm from './pages/uploadForm';
+import Hours from './pages/Hours';
+import Lessons from './pages/Lessons';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/uploadform" exact component={UploadForm} />
+          <Route path="/hours" exact component={Hours} />
+          <Route path="/lessons" exact component={Lessons} />
         </Switch>
         <Footer />
       </Router>

@@ -2,6 +2,7 @@ import React from 'react'
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import HomeIcon from '@material-ui/icons/Home';
 import Logo from '../assets/bowlingLogo.png';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
@@ -11,7 +12,7 @@ function Navbar() {
 		<div className="navbar">
 			<div className="home">
 				<Link className="link" to="/">
-					Home
+					<HomeIcon />
 				</Link>
 			</div>
 			<div className="center">

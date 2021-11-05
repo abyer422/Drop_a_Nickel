@@ -1,0 +1,29 @@
+.lessons-page {
+	height: 100vh;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.lessons button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: darkred;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.lessons button:hover {
+  background-color: indianred;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.construction img {
+	height: auto;
+	width: 300px;
+	margin-top: 60px;
+}

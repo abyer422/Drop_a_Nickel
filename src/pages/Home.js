@@ -10,12 +10,22 @@ function Home() {
 				<h1> Welcome to Drop a Nickel Pro Shop </h1>
 				<p> For all of your professional bowling needs! </p>
 				<div className="Links">
-					<Link to="/about">
-						<button> About Me</button>
-					</Link>
+					
 					<Link to="/inventory">
-						<button> Inventory </button>
+						<button> Shop </button>
 					</Link>	
+					<Link to="/hours">
+						<button> Hours & Pricing </button>
+					</Link>	
+					<Link to="/lessons">
+						<button> Lessons </button>
+					</Link>
+					<Link to="/about">
+						<button> About </button>
+					</Link>
+					<Link to="/contact">
+						<button> Contact </button>
+					</Link>
 				</div>
 			</div>	
 		</div>
