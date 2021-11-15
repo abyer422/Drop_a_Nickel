@@ -1,13 +1,16 @@
-import React from 'react'
-import InstagramIcon from '@material-ui/icons/Instagram';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import React, { useState } from 'react';
 import HomeIcon from '@material-ui/icons/Home';
+import MenuIcon from '@material-ui/icons/Menu';
 import Logo from '../assets/bowlingLogo.png';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 function Navbar() {
+
+	const [ menu, setMenu ] = useState(false);
+
+	const showMenu = () => setMenu(!menu);
+
 	return (
 		<div className="navbar">
 			<div className="leftSide">
@@ -21,12 +24,29 @@ function Navbar() {
 				</Link>	
 			</div>
 			<div className="rightSide">
-				<a href="https://www.instagram.com/teamnickel_drpankl/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
-				<a href="https://twitter.com/DropANickel" target="_blank" rel="noreferrer"><TwitterIcon /></a>
-				<a href="https://www.facebook.com/IBeMoney/" target="_blank" rel="noreferrer"><FacebookIcon /></a>
-			</div>	
+				<MenuIcon onClick={showMenu} />
+			</div>
+			<nav className={menu ? 'nav-menu active' : 'nav-menu'}>
+				<ul>
+					<li>
+						<Link to="/inventory" onClick={showMenu}> Shop </Link>
+					</li>
+					<li>
+						<Link to="/hours" onClick={showMenu}> Hours & Pricing </Link>
+					</li>
+					<li>	
+						<Link to="/lessons" onClick={showMenu}> Lessons </Link>
+					</li>
+					<li>	
+						<Link to="/about" onClick={showMenu}> About Me </Link>
+					</li>
+					<li>
+						<Link to="/contact" onClick={showMenu}> Contact Me </Link>
+					</li>
+				</ul>
+			</nav>			
 		</div>
 	)	
 }
 
-export default Navbar
+export default Navbar;

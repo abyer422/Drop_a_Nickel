@@ -9,14 +9,15 @@
   border-top-color: black;
 }
 
-.footer button {
-  color: darkred;
-  margin-bottom: 0px;
-  cursor: pointer;
-  background-color: black;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
+.footer svg {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.footer svg:hover {
+  color:  black;
+  transition: .5s ease-in-out;
 }
 
 .footer p {
@@ -28,7 +29,11 @@
 
 @media screen and (max-width: 600px) {
   .footer {
-  padding-top: 2px;
+    padding-top: 2px;
+  }
+
+  .footer svg {
+    font-size: .75rem;
   }
 
   .footer p {
@@ -39,6 +44,10 @@
 @media screen and (max-height: 600px) {
   .footer {
   padding-top: 2px;
+  }
+
+  .footer svg {
+    font-size: .75rem;
   }
 
   .footer p {

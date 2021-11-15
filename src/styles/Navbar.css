@@ -12,8 +12,14 @@
   align-items: center;
 }
 
-.navbar .link:visited {
+.navbar a {
   text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar a:hover {
+  color: black;
+  transition: .5s ease-in-out;
 }
 
 .navbar .center {
@@ -32,6 +38,34 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  cursor: pointer;
+}
+
+.navbar .nav-menu {
+  background-color: darkred;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 71px;
+  right: -100%;
+  transition: 850ms;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-menu.active {
+  top: 71px;
+  right: 0;
+  transition: 350ms;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  padding: 15px;
 }
 
 .navbar svg:hover {
@@ -52,5 +86,18 @@
 
   .navbar img {
     width: 40px;
+  }
+
+  .navbar .nav-menu {
+    top: 44px;
+    font-size: .75rem;
+  }
+
+  .navbar .nav-menu.active {
+    top: 44px;
+  }
+
+  .navbar li {
+    padding: 5px;
   }
 }
