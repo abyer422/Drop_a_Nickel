@@ -32,9 +32,13 @@
   color: darkred;
 }
 
+.table-container .header {
+  padding-top: 15px;
+}
+
 @media screen and (max-width: 600px) {
   .hours-page {
-    font-size: .60rem;
+    font-size: .75rem;
   }
 
   .hours button {

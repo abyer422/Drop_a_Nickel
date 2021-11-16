@@ -17,79 +17,92 @@ function Hours() {
 			</div>
 			<div className="table-container">	
 				<table>
-					<tr>
-						<th>Ball Drilling:</th>
-					</tr>
-					<tr>
-						<td>Drill (Plastic)</td>
-						<td>$30</td>
-					</tr>
-					<tr>
-						<td>Drill (Reactive)</td>
-						<td>$40</td>
-					</tr>
-					<br></br>
+					<thead>
+						<tr>
+							<th>Ball Drilling:</th>
+						</tr>	
+					</thead>
 
-					<tr>
-						<th>Drilling Extras:</th>
-					</tr>
-					<tr>
-						<td>Finger Grips - Pair</td>
-						<td>$8.00</td>
-					</tr>
-					<tr>	
-						<td>Replace Grip - Each</td>
-						<td>$4.00</td>
-					</tr>	
-					<tr>
-						<td>Thumb Slug</td>
-						<td>$10.00</td>
-					</tr>	
-					<tr>
-						<td>Switch Grip Inner</td>
-						<td>$20.00</td>
-					</tr>
-					<tr>
-						<td>Switch Grip Outer</td>
-						<td>$18.00</td>
-					</tr>
-					<tr>
-						<td>I.T. Inner (Thumb)</td>
-						<td>$18.00</td>
-					</tr>	
-					<tr>
-						<td>I.T. Base and Sleeve</td>
-						<td>$15.00</td>
-					</tr>
-					<br></br>
+					<tbody>
+						<tr>
+							<td>Drill (Plastic)</td>
+							<td>$30</td>
+						</tr>
+						<tr>
+							<td>Drill (Reactive)</td>
+							<td>$40</td>
+						</tr>
+					</tbody>	
+
+					<thead>
+						<tr>
+							<th className="header">Drilling Extras:</th>
+						</tr>
+					</thead>
 					
-					<tr>
-						<th>Services:</th>
-					</tr>
-					<tr>
-						<td>Resurface (By Hand)</td>
-						<td>$30.00</td>
-					</tr>
-					<tr>
-						<td>Revive</td>
-						<td>$10.00</td>
-					</tr>
-					<tr>
-						<td>Clean/Polish/Sand</td>
-						<td>$5.00</td>
-					</tr>
-					<tr>
-						<td>Full Plug</td>
-						<td>$40.00</td>
-					</tr>
-					<tr>
-						<td>Plug Finger or Thumb Only</td>
-						<td>$20.00</td>
-					</tr>
-					<tr>
-						<td>Plug Hole or Fix Damage</td>
-						<td>$10.00</td>
-					</tr>	
+					<tbody>	
+						<tr>
+							<td>Finger Grips - Pair</td>
+							<td>$8.00</td>
+						</tr>
+						<tr>	
+							<td>Replace Grip - Each</td>
+							<td>$4.00</td>
+						</tr>	
+						<tr>
+							<td>Thumb Slug</td>
+							<td>$10.00</td>
+						</tr>	
+						<tr>
+							<td>Switch Grip Inner</td>
+							<td>$20.00</td>
+						</tr>
+						<tr>
+							<td>Switch Grip Outer</td>
+							<td>$18.00</td>
+						</tr>
+						<tr>
+							<td>I.T. Inner (Thumb)</td>
+							<td>$18.00</td>
+						</tr>	
+						<tr>
+							<td>I.T. Base and Sleeve</td>
+							<td>$15.00</td>
+						</tr>
+					</tbody>	
+					
+					<thead>
+						<tr>
+							<th className="header">Services:</th>
+						</tr>
+					</thead>
+						
+					<tbody>
+						<tr>
+							<td>Resurface (By Hand)</td>
+							<td>$30.00</td>
+						</tr>
+						<tr>
+							<td>Revive</td>
+							<td>$10.00</td>
+						</tr>
+						<tr>
+							<td>Clean/Polish/Sand</td>
+							<td>$5.00</td>
+						</tr>
+						<tr>
+							<td>Full Plug</td>
+							<td>$40.00</td>
+						</tr>
+						<tr>
+							<td>Plug Finger or Thumb Only</td>
+							<td>$20.00</td>
+						</tr>
+						<tr>
+							<td>Plug Hole or Fix Damage</td>
+							<td>$10.00</td>
+						</tr>
+					</tbody>		
 				</table>			
 			</div>
 		</div>	

@@ -7,7 +7,7 @@ const useFirestore = (collection) => {
 	const [accessories, setAccessories] = useState([]);
 		
 	useEffect(() => {
-		const unsub = projectFirestore.collection(collection)
+		projectFirestore.collection(collection)
 			.onSnapshot((snap) => {
 				let inventory = [];
 				snap.forEach(inv => {
@@ -18,7 +18,7 @@ const useFirestore = (collection) => {
 				setAccessories(inventory);
 			});
 
-		return () => unsub();
+		// return () => unsub();
 
 	}, [collection])
 

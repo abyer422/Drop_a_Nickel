@@ -29,7 +29,6 @@ function Contact() {
 		document.getElementById("contact-form").reset();
 	}
 
-
 	const message = watch('message') || "";
 	const messageCharsLeft = 1500 - message.length;
 
@@ -75,6 +74,7 @@ function Contact() {
 						
 						<label htmlFor="message">Message</label>
 						<textarea 
+							id="test"
 							rows="6" 
 							placeholder="Enter message..." 
 							name="message"

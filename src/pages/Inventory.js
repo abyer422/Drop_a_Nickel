@@ -4,9 +4,13 @@ import '../styles/Inventory.css';
 
 function Inventory() {
 	
-	const { accessories } = useFirestore('Accessories');
 	const { balls } = useFirestore('Balls');
-	const { bags } = useFirestore('Bags');	
+	const { bags } = useFirestore('Bags');
+	const { accessories } = useFirestore('Accessories');
+	
+	const askDetails = (e) => {
+		console.log(e.name);
+	}	
 	
 	return (
 		<div className="inv-wrap">
@@ -15,14 +19,14 @@ function Inventory() {
 
 			<div className="inv-grid">
 				{ balls && balls.map(balls => (
-					<div className="inv-wrap1" key={balls.id}>
+					<div className="inv-wrap1" key={Math.random()}>
 						<h1>{balls.name}</h1>
 						<img src={balls.url} alt={balls.name} />
 						<p>Condition: {balls.condition} </p>
 						<p>Description: {balls.description} </p>
 						<p>Price: ${balls.price} </p>
 						<p>Weight: {balls.weight} lbs </p>
-						<button> Find out more </button>
+						<button onClick={() => askDetails(balls)}> Ask for Details </button>
 					</div>
 				))}
 			</div>
@@ -37,7 +41,7 @@ function Inventory() {
 						<p>Condition: {bags.condition} </p>
 						<p>Description: {bags.description} </p>
 						<p>Price: ${bags.price} </p>
-						<button> Find out more </button>
+						<button onClick={() => askDetails(bags)}> Ask for Details </button>
 					</div>
 				))}
 			</div>
@@ -52,7 +56,7 @@ function Inventory() {
 						<p>Condition: {accessories.condition} </p>
 						<p>Description: {accessories.description} </p>
 						<p>Price: ${accessories.price} </p>
-						<button> Find out more </button>
+						<button onClick={() => askDetails(accessories)}> Ask for Details </button>
 					</div>
 				))}
 			</div>
