@@ -3,4 +3,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+}
+
+.login h3 {
+	color: whitesmoke;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.login h4 {
+	color: whitesmoke;
+	margin-bottom: 75px;
 }

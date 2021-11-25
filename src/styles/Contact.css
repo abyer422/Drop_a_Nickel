@@ -1,33 +1,54 @@
 .contact {
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.contact .leftSide {
-  width: 50%;
+.contact .top {
+  height: 400px;
+  margin-bottom: 35px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
+.contact .body {
+  display: flex;
+  justify-content: space-evenly;
+  /*justify-content: center;*/
+  /*width: fit-content;*/
+}
+
+.contact .leftSide {
+  /*flex: 10%;*/
+  color: whitesmoke;
+  text-align: center;
+  /*align-self: center;*/
+  margin-right: 15px;
+}
+
+.leftSide iframe {
+  width: 500px;
+  height: 300px;
+}
+
+.contact h3 {
+  margin: 30px 0 20px 0;
+}
+
+.contact h6 {
+  margin-bottom: 50px;
+}
+
 .contact .rightSide {
+  /*flex: 10%;*/
   width: 50%;
   text-align: center;
-  align-self: center;
-}
-
-.contact .rightSide h1 {
-  color: whitesmoke;
-}
-
-.contact-form {
-  height: 98%;
 }
 
 .contact form {
   border: solid darkred;
-  padding: 10px;
+  /*padding: 10px;*/
   display: flex;
   flex-direction: column;
 }
@@ -37,12 +58,13 @@
 }
 
 .contact form input {
-  margin-top: 1px;
-  padding: 5px;
+  /*margin-top: 1px;*/
+  /*padding: 5px;*/
   border: none;
-  border-bottom: 1px solid #121619;
-  align-self: center;
-  width: 95%;
+  /*border-bottom: 1px solid #121619;*/
+  /*align-self: center;*/
+  /*width: 95%;*/
+  margin: 0 15px 0 15px;
 }
 
 .contact form small {
@@ -51,14 +73,15 @@
 }
 
 .contact form textarea {
-  border: 1px solid #121619;
-  align-self: center;
-  width: 95%;
+  /*border: 1px solid #121619;*/
+  /*align-self: center;*/
+  /*width: 95%;*/
+  margin: 0 15px 0 15px;
 }
 
 .contact p {
   color: darkred;
-  align-self: center;
+  /*align-self: center;*/
 }
 
 input::placeholder,
@@ -82,7 +105,7 @@ textarea:focus {
 
 .contact form label {
   color: grey;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .contact form button {
@@ -91,8 +114,9 @@ textarea:focus {
   cursor: pointer;
   align-self: center;
   border: none;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   font-size: 1rem;
+  margin-bottom: 2px;
 }
 
 form button:hover {
@@ -103,16 +127,41 @@ form button:hover {
 
 @media screen and (max-width: 600px) {
   .contact .rightSide h1 {
-    font-size: 1em;
+    /*font-size: 1em;*/
   }
 
-  .contact form {
+  .contact {
+    font-size: .75em;
+  }
+
+  .contact .top {
+    height: 200px;
+  }
+
+  .contact .leftSide {
+    margin-right: 5px;
+  }
+
+  .contact h3 {
+    margin: 0 0 10px 0;
+  }
+
+  .contact h6 {
+    margin-bottom: 25px;
+  }
+
+  .contact form label {
     padding: 2px;
+  }
+
+  .leftSide iframe {
+    width: 175px;
+    height: 200px;
   }
 }
 
 @media screen and (min-width: 1450px) {
     .contact .leftSide {
-    background-size: inherit;
+    /*background-size: inherit;*/
   }
 }
