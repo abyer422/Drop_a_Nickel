@@ -1,5 +1,6 @@
 import React from 'react';
 import useFirestore from '../hooks/useFirestore';
+import { useHistory } from "react-router-dom";
 import '../styles/Inventory.css';
 
 function Inventory() {
@@ -7,19 +8,24 @@ function Inventory() {
 	const { balls } = useFirestore('Balls');
 	const { bags } = useFirestore('Bags');
 	const { accessories } = useFirestore('Accessories');
+	const history = useHistory();
 	
+
 	const askDetails = (e) => {
-		console.log(e.name);
+		localStorage.setItem("details", "Hello, I am interested in item " + e.id + " which is the " + e.condition + " " + e.name + " that weighs " + e.weight + " lbs and has a description of: " + e.description + ".");
+		history.push("/contact");
+		// localStorage.clear();
 	}	
 	
 	return (
+
 		<div className="inv-wrap">
 			
 			<h1> Balls </h1>
 
 			<div className="inv-grid">
 				{ balls && balls.map(balls => (
-					<div className="inv-wrap1" key={Math.random()}>
+					<div className="inv-wrap1" key={balls.id}>
 						<h1>{balls.name}</h1>
 						<img src={balls.url} alt={balls.name} />
 						<p>Condition: {balls.condition} </p>

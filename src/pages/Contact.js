@@ -22,15 +22,19 @@ function Contact() {
 		sendForm('default_service', 'template_15t4u5d', '#contact-form')
 			.then(function(response) {
 				alert("Thank you for your email!");
+				window.location.reload();
 			}, function(error) {
 				alert("Failed to send message! Please try again later")
 			});
 
 		document.getElementById("contact-form").reset();
+		localStorage.clear();
 	}
 
 	const message = watch('message') || "";
 	const messageCharsLeft = 1500 - message.length;
+
+	const details = localStorage.getItem("details");
 
 	return (
 		<div className="contact">
@@ -42,7 +46,7 @@ function Contact() {
 				<div className="leftSide">
 					<h3>Thank you for visiting!!</h3>
 					<h6>Fill out this form to shoot me an email or contact me at (505) 555-5555.</h6>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.141741839591!2d-106.63820378418734!3d35.252729360958845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872270b61a7d7f5b%3A0x3d9cc5dc80a4cbf0!2s202%20Cabeza%20Negra%20Ct%20SE%2C%20Rio%20Rancho%2C%20NM%2087124!5e0!3m2!1sen!2sus!4v1637810184082!5m2!1sen!2sus"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.141741839591!2d-106.63820378418734!3d35.252729360958845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872270b61a7d7f5b%3A0x3d9cc5dc80a4cbf0!2s202%20Cabeza%20Negra%20Ct%20SE%2C%20Rio%20Rancho%2C%20NM%2087124!5e0!3m2!1sen!2sus!4v1637810184082!5m2!1sen!2sus" title="Map"></iframe>
 				</div>
 				<div className="rightSide">
 					<div className="contact-form">						
@@ -81,6 +85,8 @@ function Contact() {
 								id="test"
 								rows="6" 
 								placeholder="Enter your message..." 
+								value={!details ? "" : details}
+								// value={localStorage.getItem("details")}
 								name="message"
 								maxLength='1500' 
 								required 
