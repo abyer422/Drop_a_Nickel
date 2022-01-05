@@ -10,11 +10,9 @@ function Inventory() {
 	const { accessories } = useFirestore('Accessories');
 	const history = useHistory();
 	
-
 	const askDetails = (e) => {
 		localStorage.setItem("details", "Hello, I am interested in item " + e.id + " which is the " + e.condition + " " + e.name + " that weighs " + e.weight + " lbs and has a description of: " + e.description + ".");
 		history.push("/contact");
-		// localStorage.clear();
 	}	
 	
 	return (
