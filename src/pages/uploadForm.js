@@ -24,7 +24,9 @@ const UploadForm = () => {
 	return (
 		<form className="form" id="Inv">
 
-			<div className="upload-center">Choose a category</div>
+			<div className="upload-center">
+				<h3>Choose a category:</h3>
+			</div>
 
 			<div className="radio">
 				<label htmlFor="balls">Balls</label>
@@ -52,7 +54,9 @@ const UploadForm = () => {
 						required />
 			</div>
 
-			<label htmlFor="name">Item Name</label>
+			<label htmlFor="name">
+				<h3>Item Name:</h3>
+			</label>
 				<input 
 					id="Name"
 					name="name" 
@@ -60,6 +64,10 @@ const UploadForm = () => {
 					type="text" 
 					maxLength='30'
 					required />
+
+			<div>
+				<h3>Condition:</h3>
+			</div>
 
 			<div className="radio">
 				<label htmlFor="new">New</label>
@@ -79,7 +87,9 @@ const UploadForm = () => {
 						required />
 			</div>
 
-			<label htmlFor="description">Description</label>
+			<label htmlFor="description">
+				<h3>Description:</h3>
+			</label>
 				<input 
 					id="Description"
 					name="description" 
@@ -88,7 +98,9 @@ const UploadForm = () => {
 					maxLength='200' 
 					required />
 			
-			<label htmlFor="price">Price</label>
+			<label htmlFor="price">
+				<h3>Price:</h3>
+			</label>
 				<input 
 					id="Price"
 					name="price" 
@@ -96,15 +108,19 @@ const UploadForm = () => {
 					type="number" 
 					required />
 			
-				<label htmlFor="weight">Weight</label>
-					<input 
-						id="Weight"
-						name="weight" 
-						placeholder="Enter weight of item..." 
-						type="number" />								
+			<label htmlFor="weight">
+				<h3>Weight:</h3>
+			</label>
+				<input 
+					id="Weight"
+					name="weight" 
+					placeholder="Enter weight of item..." 
+					type="number" />								
 			
 			
-			<label htmlFor="Image">Item image</label>
+			<label htmlFor="Image">
+				<h3>Item image:</h3>
+			</label>
 				<input 
 					id="Image"
 					name="file"

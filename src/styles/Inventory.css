@@ -1,12 +1,17 @@
 .inv-wrap {
   height: 100%;
-  color: whitesmoke;
+  color: darkred;
   overflow: scroll;
   text-align: center;
 }
 
 .inv-wrap img {
   width: 50%;
+}
+
+.inv-wrap span {
+  color: whitesmoke;
+  font-size: 3rem;
 }
 
 .inv-grid {
@@ -35,6 +40,10 @@
 
 @media screen and (max-width: 600px) {
   
+  .inv-wrap span {
+    font-size: 2rem;
+  }
+
   .inv-wrap1 {
     font-size: 1rem;
   }

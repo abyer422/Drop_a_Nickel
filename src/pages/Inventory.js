@@ -19,7 +19,7 @@ function Inventory() {
 
 		<div className="inv-wrap">
 			
-			<h1> Balls </h1>
+			<span> Balls </span>
 
 			<div className="inv-grid">
 				{ balls && balls.map(balls => (
@@ -35,7 +35,7 @@ function Inventory() {
 				))}
 			</div>
 
-			<h1> Bags </h1>
+			<span> Bags </span>
 
 			<div className="inv-grid">
 				{ bags && bags.map(bags => (
@@ -50,7 +50,7 @@ function Inventory() {
 				))}
 			</div>
 
-			<h1> Accessories </h1>
+			<span> Accessories </span>
 
 			<div className="inv-grid">
 				{ accessories && accessories.map(accessories => (

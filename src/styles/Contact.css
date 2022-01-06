@@ -36,8 +36,16 @@
   margin: 30px 0 20px 0;
 }
 
+.contact h5 {
+  margin-bottom: 20px;
+}
+
 .contact h6 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.contact a {
+  margin: 0 5px 0 5px;
 }
 
 .contact .rightSide {
@@ -157,6 +165,10 @@ form button:hover {
   .leftSide iframe {
     width: 175px;
     height: 200px;
+  }
+
+  .contact form button {
+    font-size: .70em;
   }
 }
 

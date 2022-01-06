@@ -9,7 +9,10 @@ function Navbar() {
 
 	const [ menu, setMenu ] = useState(false);
 
-	const showMenu = () => setMenu(!menu);
+	const showMenu = () => {
+		setMenu(!menu);
+		localStorage.clear();
+	}
 
 	return (
 		<div className="navbar">

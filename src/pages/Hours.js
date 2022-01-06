@@ -26,11 +26,11 @@ function Hours() {
 					<tbody>
 						<tr>
 							<td>Drill (Plastic)</td>
-							<td>$30</td>
+							<td>$30.00</td>
 						</tr>
 						<tr>
 							<td>Drill (Reactive)</td>
-							<td>$40</td>
+							<td>$40.00</td>
 						</tr>
 					</tbody>	
 

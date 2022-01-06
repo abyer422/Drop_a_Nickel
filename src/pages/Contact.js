@@ -2,8 +2,12 @@ import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
 import Billy2 from '../assets/Billy2.jpg';
 import '../styles/Contact.css';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import { init, sendForm } from 'emailjs-com';
 init('user_1trT0OPzsLaeCi658ABiD');
+
 		
 
 function Contact() {
@@ -45,7 +49,12 @@ function Contact() {
 			<div className="body">
 				<div className="leftSide">
 					<h3>Thank you for visiting!!</h3>
-					<h6>Fill out this form to shoot me an email or contact me at (505) 555-5555.</h6>
+					<h5>Fill out this form to shoot me an email or contact me at (505) 555-5555.</h5>
+					<h6>Find me on social media
+						<a href="https://www.instagram.com/teamnickel_drpankl/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
+						<a href="https://twitter.com/DropANickel" target="_blank" rel="noreferrer"><TwitterIcon /></a>
+						<a href="https://www.facebook.com/IBeMoney/" target="_blank" rel="noreferrer"><FacebookIcon /></a>
+					</h6>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.141741839591!2d-106.63820378418734!3d35.252729360958845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872270b61a7d7f5b%3A0x3d9cc5dc80a4cbf0!2s202%20Cabeza%20Negra%20Ct%20SE%2C%20Rio%20Rancho%2C%20NM%2087124!5e0!3m2!1sen!2sus!4v1637810184082!5m2!1sen!2sus" title="Map"></iframe>
 				</div>
 				<div className="rightSide">
@@ -82,11 +91,10 @@ function Contact() {
 							
 							<label htmlFor="message">Message</label>
 							<textarea 
-								id="test"
+								id="message"
 								rows="6" 
 								placeholder="Enter your message..." 
 								value={!details ? "" : details}
-								// value={localStorage.getItem("details")}
 								name="message"
 								maxLength='1500' 
 								required 
