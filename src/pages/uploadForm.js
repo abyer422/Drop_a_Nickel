@@ -62,7 +62,7 @@ const UploadForm = () => {
 					name="name" 
 					placeholder="Enter name of item..." 
 					type="text" 
-					maxLength='30'
+					maxLength='200'
 					required />
 
 			<div>
