@@ -11,7 +11,7 @@ function Inventory() {
 	const history = useHistory();
 	
 	const askDetails = (e) => {
-		localStorage.setItem("details", "Hello, I am interested in item " + e.id + " which is the " + e.condition + " " + e.name + " that weighs " + e.weight + " lbs and has a description of: " + e.description + ", for $" + e.price);
+		localStorage.setItem("details", "Hello, I am interested in item " + e.id + " which is the " + e.condition + " " + e.name + " that weighs " + e.weight + " lbs and has a description of: " + e.description + ", for $" + e.price + ".");
 		history.push("/contact");
 	}	
 	
