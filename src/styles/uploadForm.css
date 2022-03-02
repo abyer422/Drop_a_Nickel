@@ -2,21 +2,20 @@
 	height: 100vh;
 	color: whitesmoke;
 	background-color: black;
-	margin: 10px;
-	text-align: center;
+	margin: .15em;
+	/*text-align: center;*/
 	display: flex;
 	flex-direction: column;
+	overflow: auto;
 }
 
-.form h3 {
-	color: darkred;
-	text-align: left;
-	margin-left: 50px;
+.upload-center h3 {
+	text-align: center;
 }
 
 .form input {
-	margin: 5px;
-	padding: 15px;
+	margin: .2em;
+	padding: .25em;
 	box-sizing: border-box;
 }
 
@@ -29,20 +28,18 @@ input[type=number]:focus {
 }
 
 .progress-bar {
-	height: 15px;
+	height: .20em;
 	background: darkred;
-	margin-top: 20px;
-}
-
-.error {
-	color: darkred;
+	margin-top: .5em;
 }
 
 .radio {
 	border: solid darkred;
-	font-size: 1.5rem;
-	margin: 10px 0 10px 0;
-	padding: 5px;
+	width: fit-content;
+	align-self:	center;
+	font-size: 1.5em;
+	margin: .15em 0 .15em 0;
+	padding: .15em;
 }
 
 .form button {
@@ -50,14 +47,7 @@ input[type=number]:focus {
 	background-color: darkred;
 	color: black;
 	border: none;
-	border-radius: 5px;
+	border-radius: .15em;
 	cursor: pointer;
-	font-size: 1.25rem;
-}
-
-@media screen and (max-width: 600px) {
-	.form input {
-		margin: 3px;
-		padding: 5px;
-	}
+	font-size: 1.25em;
 }

@@ -1,44 +1,36 @@
 .wrapper {
   height: 100vh;
   display: flex;
+  overflow: auto;
 }
 
-.wrapper .leftSide {
-  flex: 50%;
+.LS {
+  width: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
-.wrapper .rightSide {
-  flex: 50%;
+.RS {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: red;
-  margin-left: 15px;
+  color: whitesmoke;
+  margin-left: .75em;
   font-size: 1.5rem;
 }
 
-.wrapper .rightSide h1 {
+.RS h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: whitesmoke;
+  border-bottom: solid darkred;
 }
 
 @media screen and (max-width: 600px) {
-  .wrapper .rightSide {
+  .RS {
     font-size: 1rem;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .wrapper .rightSide {
-    font-size: .5rem;
-  }
-
-  .wrapper .leftSide {
-    background-size: contain;
   }
 }

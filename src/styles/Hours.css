@@ -2,17 +2,18 @@
 	height: 100vh;
 	color: whitesmoke;
 	text-align: center;	
-	font-size: 1rem;
+	font-size: 1em;
+  overflow: auto;
 }
 
 .hours button {
   color: black;
   border: none;
-  border-radius: 5px;
+  border-radius: .15em;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   background-color: darkred;
-  margin-bottom: 5px;
+  margin-bottom: .25em;
 }
 
 .hours button:hover {
@@ -33,27 +34,9 @@
 }
 
 .table-container .header {
-  padding-top: 15px;
+  padding-top: .15em;
 }
 
 td {
-  padding: 5px 15px 5px 15px;
-}
-
-@media screen and (max-width: 600px) {
-  .hours-page {
-    font-size: .75rem;
-  }
-
-  .hours button {
-    font-size: .75rem;
-  }
-
-  .table-container .header {
-    padding-top: 2px;
-  }
-
-  td {
-    padding: 1px 15px 1px 15px;
-  }
+  padding: .15em .5em .15em .5em;
 }

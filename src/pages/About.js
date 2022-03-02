@@ -5,11 +5,10 @@ import '../styles/About.css';
 function About() {
 	return (
 		<div className="wrapper">
-			<div 
-				className="leftSide"
-				style={{ backgroundImage: `url(${Billy})` }} >
+			<div className="LS" style={{ backgroundImage: `url(${Billy})` }} >
+					<></>
 			</div>
-			<div className="rightSide">
+			<div className="RS">
 				<h1> ABOUT ME </h1>
 				<p> In nulla labore cillum ut culpa irure eu velit sed exercitation aute esse fugiat dolore 
  					roident aliquip pariatur fugiat. Aute in ut minim amet duis ut nulla ut in officia 

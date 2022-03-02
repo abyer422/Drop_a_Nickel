@@ -65,7 +65,7 @@ const UploadForm = () => {
 					maxLength='200'
 					required />
 
-			<div>
+			<div className="upload-center">
 				<h3>Condition:</h3>
 			</div>
 

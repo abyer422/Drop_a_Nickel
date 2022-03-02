@@ -4,15 +4,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 5px;
+  padding-top: .25em;
   border-top-style: solid;
   border-top-color: black;
 }
 
 .footer svg {
   color: whitesmoke;
-  font-size: 1.5rem;
-  margin-right: 15px;
+  font-size: 1.5em;
+  margin-right: .75em;
 }
 
 .footer svg:hover {
@@ -22,35 +22,35 @@
 
 .footer p {
   color: whitesmoke;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 1.5rem;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 600px) {
   .footer {
-    padding-top: 2px;
+    padding-top: .15em;
   }
 
   .footer svg {
-    font-size: .75rem;
+    font-size: .75em;
   }
 
   .footer p {
-    font-size: .75rem;
+    font-size: .75em;
   }
 }
 
 @media screen and (max-height: 600px) {
   .footer {
-  padding-top: 2px;
+  padding-top: .15em;
   }
 
   .footer svg {
-    font-size: .75rem;
+    font-size: .75em;
   }
 
   .footer p {
-    font-size: .75rem;
+    font-size: .75em;
   }
 }
