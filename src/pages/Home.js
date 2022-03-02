@@ -1,5 +1,6 @@
 import React from 'react'
-import BannerImage from '../assets/bowlingHome2.jpg';
+// import BannerImage from '../assets/bowlingHome2.jpg';
+import BannerImage from '../assets/bowlingHome.jpg';
 import '../styles/Home.css';
 
 function Home() {
