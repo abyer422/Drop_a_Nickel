@@ -18,8 +18,6 @@ const useFirestore = (collection) => {
 				setAccessories(inventory);
 			});
 
-		// return () => unsub();
-
 	}, [collection])
 
 	return { balls, bags, accessories };

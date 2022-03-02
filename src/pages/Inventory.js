@@ -1,6 +1,7 @@
 import React from 'react';
 import useFirestore from '../hooks/useFirestore';
 import { useHistory } from "react-router-dom";
+import { useState } from 'react';
 import '../styles/Inventory.css';
 
 function Inventory() {
@@ -9,6 +10,8 @@ function Inventory() {
 	const { bags } = useFirestore('Bags');
 	const { accessories } = useFirestore('Accessories');
 	const history = useHistory();
+
+	const [searchTerm, setSearchTerm] = useState('');
 	
 	const askDetails = (e) => {
 		localStorage.setItem("details", "Hello, I am interested in item " + e.id + " which is the " + e.condition + " " + e.name + " that weighs " + e.weight + " lbs and has a description of: " + e.description + ", for $" + e.price + ".");
@@ -18,15 +21,30 @@ function Inventory() {
 	return (
 
 		<div className="inv-wrap">
+
+			<div className="search">
+				<input type="text" placeholder="Search by name..." onChange={event => {setSearchTerm(event.target.value)}}/>
+				<input type="button" onClick={() => setSearchTerm('')} value="All Items"/>
+				<input type="button" onClick={() => setSearchTerm('new')} value="New Items"/>
+				<input type="button" onClick={() => setSearchTerm('used')} value="Used Items"/>
+			</div>
 			
 			<span> Balls </span>
 
 			<div className="inv-grid">
-				{ balls && balls.map(balls => (
+				{ balls && balls.filter((val) => {
+					if (searchTerm === '') {
+						return val;
+					} else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					}
+				}).map(balls => (
 					<div className="inv-wrap1" key={balls.id}>
 						<h1>{balls.name}</h1>
 						<img src={balls.url} alt={balls.name} />
-						<p>Condition: {balls.condition} </p>
+						<p id="condition">Condition: {balls.condition} </p>
 						<p>Description: {balls.description} </p>
 						<p>Price: ${balls.price} </p>
 						<p>Weight: {balls.weight} lbs </p>

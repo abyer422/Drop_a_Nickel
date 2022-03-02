@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+.inv-wrap .search {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+}
+
+.inv-wrap .search input {
+  padding-left: .25em;
+  width: 25em;
+  border-radius: 1.5em;
+  justify-content: flex-start;
+}
+
+.inv-wrap .search input[type=text]:focus {
+  background-color: lightblue;
+}
+
 .inv-wrap img {
   width: 50%;
 }
