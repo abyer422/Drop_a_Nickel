@@ -21,16 +21,21 @@ function Inventory() {
 	
 	return (
 
-		<div className="inv-wrap">
+		<div className="inv-wrap" id="Top">
 
 			<div className="search">
-				<input type="text" placeholder="Search by name..." onChange={event => {setSearchTerm(event.target.value)}}/>
-				<input type="button" onClick={() => setSearchTerm('')} value="All Items"/>
-				<input type="button" onClick={() => setSearchTerm('new')} value="New Items"/>
-				<input type="button" onClick={() => setSearchTerm('used')} value="Used Items"/>
+				<input type="text" placeholder="Search..." onChange={event => {setSearchTerm(event.target.value)}}/>
+				<input type="button" onClick={() => setSearchTerm('')} value="All"/>
+				<input type="button" onClick={() => setSearchTerm('new')} value="New"/>
+				<input type="button" onClick={() => setSearchTerm('used')} value="Used"/>
+				<a href="#Balls">Balls</a>
+				<a href="#Bags">Bags</a>
+				<a href="#Accessories">Accessories</a>
+				<a href="#Shoes">Shoes</a>
+				<a href="#Balls">Top</a>
 			</div>
 			
-			<span> Balls </span>
+			<span id="Balls"> Balls </span>
 
 			<div className="inv-grid">
 				{ balls && balls.filter((val) => {
@@ -39,6 +44,12 @@ function Inventory() {
 					} else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
 					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.description.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.price.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.weight.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
 					}
 				}).map(balls => (
@@ -54,10 +65,18 @@ function Inventory() {
 				))}
 			</div>
 
-			<span> Bags </span>
+			<span id="Bags"> Bags </span>
 
 			<div className="inv-grid">
-				{ bags && bags.map(bags => (
+				{ bags && bags.filter((val) => {
+					if (searchTerm === '') {
+						return val;
+					} else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					}
+				}).map(bags => (
 					<div className="inv-wrap1" key={bags.id}>
 						<h1>{bags.name}</h1>
 						<img src={bags.url} alt={bags.name} />
@@ -69,10 +88,18 @@ function Inventory() {
 				))}
 			</div>
 
-			<span> Accessories </span>
+			<span id="Accessories"> Accessories </span>
 
 			<div className="inv-grid">
-				{ accessories && accessories.map(accessories => (
+				{ accessories && accessories.filter((val) => {
+					if (searchTerm === '') {
+						return val;
+					} else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					}
+				}).map(accessories => (
 					<div className="inv-wrap1" key={accessories.id}>
 						<h1>{accessories.name}</h1>
 						<img src={accessories.url} alt={accessories.name} />
@@ -84,10 +111,18 @@ function Inventory() {
 				))}
 			</div>
 
-			<span> Shoes </span>
+			<span id="Shoes"> Shoes </span>
 
 			<div className="inv-grid">
-				{ shoes && shoes.map(shoes => (
+				{ shoes && shoes.filter((val) => {
+					if (searchTerm === '') {
+						return val;
+					} else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					}
+				}).map(shoes => (
 					<div className="inv-wrap1" key={shoes.id}>
 						<h1>{shoes.name}</h1>
 						<img src={shoes.url} alt={shoes.name} />
