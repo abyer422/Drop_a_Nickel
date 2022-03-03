@@ -9,6 +9,7 @@ function Inventory() {
 	const { balls } = useFirestore('Balls');
 	const { bags } = useFirestore('Bags');
 	const { accessories } = useFirestore('Accessories');
+	const { shoes } = useFirestore('Shoes');
 	const history = useHistory();
 
 	const [searchTerm, setSearchTerm] = useState('');
@@ -79,6 +80,21 @@ function Inventory() {
 						<p>Description: {accessories.description} </p>
 						<p>Price: ${accessories.price} </p>
 						<button onClick={() => askDetails(accessories)}> Ask for Details </button>
+					</div>
+				))}
+			</div>
+
+			<span> Shoes </span>
+
+			<div className="inv-grid">
+				{ shoes && shoes.map(shoes => (
+					<div className="inv-wrap1" key={shoes.id}>
+						<h1>{shoes.name}</h1>
+						<img src={shoes.url} alt={shoes.name} />
+						<p>Condition: {shoes.condition} </p>
+						<p>Description: {shoes.description} </p>
+						<p>Price: ${shoes.price} </p>
+						<button onClick={() => askDetails(shoes)}> Ask for Details </button>
 					</div>
 				))}
 			</div>

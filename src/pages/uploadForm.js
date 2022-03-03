@@ -52,6 +52,14 @@ const UploadForm = () => {
 						type="radio"
 						value="Accessories"
 						required />
+
+				<label htmlFor="shoes">Shoes</label>
+					<input
+						id="shoes"
+						name="category"
+						type="radio"
+						value="Shoes"
+						required />
 			</div>
 
 			<label htmlFor="name">

@@ -5,6 +5,7 @@ const useFirestore = (collection) => {
 	const [balls, setBalls] = useState([]);
 	const [bags, setBags] = useState([]);
 	const [accessories, setAccessories] = useState([]);
+	const [shoes, setShoes] = useState([]);
 		
 	useEffect(() => {
 		projectFirestore.collection(collection)
@@ -16,11 +17,12 @@ const useFirestore = (collection) => {
 				setBalls(inventory);
 				setBags(inventory);
 				setAccessories(inventory);
+				setShoes(inventory);
 			});
 
 	}, [collection])
 
-	return { balls, bags, accessories };
+	return { balls, bags, accessories, shoes };
 }
 
 export default useFirestore;
