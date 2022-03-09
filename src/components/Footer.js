@@ -6,7 +6,7 @@ function Footer() {
 	return (
 		<div className="footer">
 			<div>
-				<a href="https://www.facebook.com/IBeMoney/" target="_blank" rel="noreferrer"><FacebookIcon /></a>
+				Follow me on Facebook: <a href="https://www.facebook.com/IBeMoney/" target="_blank" rel="noreferrer"><FacebookIcon /></a>
 			</div>
 			<div>	
 				<p> &copy; 2021 drpnkl.com </p>

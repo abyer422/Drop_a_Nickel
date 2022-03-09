@@ -7,10 +7,11 @@
   padding-top: .25em;
   border-top-style: solid;
   border-top-color: black;
+  color: whitesmoke;
 }
 
 .footer svg {
-  color: whitesmoke;
+  /*color: whitesmoke;*/
   font-size: 1.5em;
   margin-right: .75em;
 }

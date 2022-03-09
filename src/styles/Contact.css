@@ -27,6 +27,10 @@
   font-size: 1.75em;
 }
 
+.contact .body svg {
+  font-size: 1.5em;
+}
+
 .contact-form {
   width: 75%;
   font-size: 1em;
@@ -40,6 +44,8 @@
 
 .contact form label {
   padding: .15em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 .contact form input {
@@ -48,6 +54,7 @@
 
 .contact form small {
   align-self: center;
+  margin-top: .5em;
 }
 
 .contact form textarea {
@@ -83,9 +90,9 @@ textarea:focus {
   cursor: pointer;
   align-self: center;
   border: none;
-  font-size: .75em;
-  margin-bottom: .20em;
-  margin-top: .20em;
+  font-size: 1em;
+  margin-bottom: .5em;
+  margin-top: .5em;
 }
 
 form button:hover {

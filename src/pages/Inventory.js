@@ -28,13 +28,17 @@ function Inventory() {
 				<input type="button" onClick={() => setSearchTerm('')} value="All"/>
 				<input type="button" onClick={() => setSearchTerm('new')} value="New"/>
 				<input type="button" onClick={() => setSearchTerm('used')} value="Used"/>
+				
+			</div>
+
+			<div className="scroll">
 				<a href="#Balls">Balls</a>
 				<a href="#Bags">Bags</a>
 				<a href="#Accessories">Accessories</a>
 				<a href="#Shoes">Shoes</a>
 				<a href="#Balls">Top</a>
 			</div>
-			
+				
 			<span id="Balls"> Balls </span>
 
 			<div className="inv-grid">
@@ -45,12 +49,12 @@ function Inventory() {
 						return val;
 					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
-					} else if (val.description.toLowerCase().includes(searchTerm.toLowerCase())) {
-						return val;
 					} else if (val.price.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
 					} else if (val.weight.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
+					} else {
+						return val = '';
 					}
 				}).map(balls => (
 					<div className="inv-wrap1" key={balls.id}>
@@ -75,6 +79,12 @@ function Inventory() {
 						return val;
 					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
+					} else if (val.price.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.weight.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else {
+						return val = '';
 					}
 				}).map(bags => (
 					<div className="inv-wrap1" key={bags.id}>
@@ -98,6 +108,12 @@ function Inventory() {
 						return val;
 					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
+					} else if (val.price.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.weight.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else {
+						return val = '';
 					}
 				}).map(accessories => (
 					<div className="inv-wrap1" key={accessories.id}>
@@ -121,6 +137,12 @@ function Inventory() {
 						return val;
 					} else if (val.condition.toLowerCase().includes(searchTerm.toLowerCase())) {
 						return val;
+					} else if (val.price.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else if (val.weight.toLowerCase().includes(searchTerm.toLowerCase())) {
+						return val;
+					} else {
+						return val = '';
 					}
 				}).map(shoes => (
 					<div className="inv-wrap1" key={shoes.id}>
@@ -132,6 +154,7 @@ function Inventory() {
 						<button onClick={() => askDetails(shoes)}> Ask for Details </button>
 					</div>
 				))}
+
 			</div>
 
 		</div>	

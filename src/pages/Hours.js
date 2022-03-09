@@ -1,20 +1,32 @@
 import React from 'react';
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import {Link} from 'react-router-dom';
 import '../styles/Hours.css';
 
 function Hours() {
 	return (
 		<div className="hours-page">
+
 			<div className="hours">
-				<h1> Hours: </h1>
-				<p> Contact me to schedule an appointment! </p>
-					<Link to="/contact" className="link">
-						<button> Contact Me </button>
-					</Link>
+				<h1> Hours of operation </h1>
+				<ul>
+					<li>
+						Currently I do not have any set hours of operation
+					</li>
+					<li>
+						Contact me to schedule an appointment! 
+							<ArrowRightAltIcon />
+							<Link to="/contact" className="link">
+								<button> Contact Me </button>
+							</Link>
+					</li>
+				</ul>
 			</div>
+
 			<div className="pricing">
-				<h1> Pricing: </h1>
+				<h1> Pricing info </h1>
 			</div>
+			
 			<div className="table-container">	
 				<table>
 					<thead>

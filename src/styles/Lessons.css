@@ -1,9 +1,26 @@
 .lessons-page {
 	height: 100vh;
 	color: whitesmoke;
-	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
   overflow: auto;
+  margin-top: 1em;
+}
+
+.lessons h1 {
+  margin-left: .5em;
+  border-bottom: solid darkred;
+  width: fit-content;
+}
+
+.lessons ul {
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+.lessons svg {
+  font-size: 3em;
+  margin-left: .25em;
+  margin-right: .25em;
 }
 
 .lessons button {
@@ -11,10 +28,9 @@
   border: none;
   border-radius: .15em;
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1.25em;
   background-color: darkred;
   margin-bottom: .25em;
-  margin-left: .20em;
 }
 
 .lessons button:hover {
@@ -23,8 +39,15 @@
   transition: 0.3s ease-in;
 }
 
+.construction {
+  display: flex;
+  justify-content: center;
+}
+
 .construction img {
 	height: auto;
-	width: 10em;
-	margin-top: 4em;
+	width: 40em;
+	margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
 }

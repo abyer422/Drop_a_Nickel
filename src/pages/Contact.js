@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import { useForm } from 'react-hook-form';
 import '../styles/Contact.css';
 import { init, sendForm } from 'emailjs-com';
@@ -41,7 +43,8 @@ function Contact() {
 			<h1>Contact Me!</h1>
 			<div className="body">
 				<p>Thank you for visiting!!</p>
-				<p>Fill out this form to shoot me an email or contact me at (505) 270-5950.</p>
+				<p>Fill out this form to shoot me an email or contact me at (505) 270 - 5950</p>
+				<p>Follow me on Facebook <ArrowRightAltIcon /><a href="https://www.facebook.com/IBeMoney/" target="_blank" rel="noreferrer"><FacebookIcon /></a></p>
 					<div className="contact-form">						
 						<form id="contact-form" onSubmit={handleSubmit(onSubmit)} >
 

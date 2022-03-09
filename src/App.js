@@ -1,7 +1,7 @@
 import './styles/App.css';
 import { AuthProvider } from './contexts/authContext';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Home from './pages/Home';
 import Inventory from './pages/Inventory';
 import About from './pages/About';
@@ -32,7 +32,7 @@ function App() {
             <Route path="/forgotpassword" exact component={ForgotPassword} />
           </Switch>
          </AuthProvider> 
-        <Footer />
+        {/*<Footer />*/}
       </Router>
     </div>
   );

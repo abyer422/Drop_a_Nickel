@@ -1,9 +1,26 @@
 .hours-page {
 	height: 100vh;
 	color: whitesmoke;
-	text-align: center;	
 	font-size: 1em;
   overflow: auto;
+  margin-top: 1em;
+}
+
+.hours-page h1 {
+  margin-left: .5em;
+  border-bottom: solid darkred;
+  width: fit-content;
+}
+
+.hours ul {
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+.hours svg {
+  font-size: 3em;
+  margin-left: .25em;
+  margin-right: .25em;
 }
 
 .hours button {
@@ -24,10 +41,14 @@
 
 .table-container table {
   border: solid darkred;
-  margin: auto;
+  margin-top: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .table-container th {
+  width: 100em;
+  padding: .5em;
   color: darkred;
   text-align: left;
   border-bottom: solid darkred;
@@ -37,6 +58,6 @@
   padding-top: .15em;
 }
 
-td {
+.table-container td {
   padding: .15em .5em .15em .5em;
 }
