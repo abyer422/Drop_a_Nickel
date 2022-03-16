@@ -71,7 +71,7 @@ function Contact() {
 								name="phone" 
 								placeholder="123-456-7890" 
 								type="tel" 
-								pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+								// pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
 								maxLength='30' 
 								required />
 							<small>Format: 123-456-7890</small>
