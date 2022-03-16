@@ -30,7 +30,7 @@
 }
 
 .navbar img {
-  width: 4em;
+  width: 17.25em;
 }
 
 .navbar .rightSide {
@@ -48,14 +48,14 @@
   display: flex;
   justify-content: center;
   position: fixed;
-  top: 4em;
+  top: 7.25em;
   right: -100%;
   transition: 850ms;
   font-size: 1.5rem;
 }
 
 .navbar .nav-menu.active {
-  top: 4em;
+  top: 7.25em;
   right: 0;
   transition: 350ms;
 }
@@ -85,16 +85,11 @@
   }
 
   .navbar img {
-    width: 3em;
+    width: 7.5em;
   }
 
   .navbar .nav-menu {
-    top: 5.5em;
     font-size: .75em;
-  }
-
-  .navbar .nav-menu.active {
-    top: 5.5em;
   }
 
   .navbar li {
