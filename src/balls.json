@@ -1,12 +1,12 @@
 [
  {
    "id": 1,
-   "name": "900 Global Boost pearl",
+   "name": "900 Global Boost Pearl",
    "condition": "Used",
    "description": "Thumb plugged once and moved. Has IT",
    "price": 20,
    "weight": "15",
-   "image": "images/used/900 Global Boost pearl (2).jpg"
+   "image": "images/used/900 Global Boost Pearl (2).jpg"
  },
  {
    "id": 2,
@@ -46,12 +46,12 @@
  },
  {
    "id": 6,
-   "name": "900 Global Honey Badger (original)",
+   "name": "900 Global Honey Badger (Original)",
    "condition": "Used",
    "description": "My personal ball. Has IT",
    "price": 40,
    "weight": "15",
-   "image": "images/used/900 Global Honey Badger (original) (2).jpg"
+   "image": "images/used/900 Global Honey Badger (Original) (2).jpg"
  },
  {
    "id": 7,
@@ -199,12 +199,12 @@
  },
  {
    "id": 23,
-   "name": "Columbia 300 Chaos green and black",
+   "name": "Columbia 300 Chaos Green and Black",
    "condition": "Used",
    "description": "Righty but drilled for backup. Minor scratches from a bag",
    "price": 40,
    "weight": "14",
-   "image": "images/used/Columbia 300 Chaos green and black (2).jpg"
+   "image": "images/used/Columbia 300 Chaos Green and Black (2).jpg"
  },
  {
    "id": 24,
@@ -483,7 +483,7 @@
    "description": "It was a demo ball but in good condition!",
    "price": 10,
    "weight": "15",
-   "image": "images/used/Hammer Scandal_s (2).jpg"
+   "image": "images/used/Hammer Scandal_S (2).jpg"
  },
  {
    "id": 55,
@@ -820,12 +820,12 @@
  },
  {
    "id": 92,
-   "name": "Storm Victory Road pearl",
+   "name": "Storm Victory Road Pearl",
    "condition": "Used",
    "description": "",
    "price": 10,
    "weight": "15",
-   "image": "images/used/Storm Victory Road pearl (2).jpg"
+   "image": "images/used/Storm Victory Road Pearl (2).jpg"
  },
  {
    "id": 93,
