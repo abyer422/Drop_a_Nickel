@@ -1,0 +1,58 @@
+[
+ {
+   "id": 108,
+   "name": "Brunswick Frenzy",
+   "condition": "Used",
+   "description": "Used men's size 9.5 wide red/black bowling shoes",
+   "price": 10,
+   "image": "images/shoes/Brunswick Frenzy.jpg"
+ },
+ {
+   "id": 109,
+   "name": "Dexter Groove",
+   "condition": "Used",
+   "description": "Used but only worn once men's size 8.5 wide bowling shoes",
+   "price": 40,
+   "image": "images/shoes/Dexter Groove.jpg"
+ },
+ {
+   "id": 110,
+   "name": "Dexter Mary Jane",
+   "condition": "Used",
+   "description": "Used women's size 8.5 medium bowling shoes",
+   "price": 20,
+   "image": "images/shoes/Dexter Mary Jane.jpg"
+ },
+ {
+   "id": 111,
+   "name": "Dexter Raquel V",
+   "condition": "New",
+   "description": "New in box women's size 9 medium black/pink bowling shoes",
+   "price": 40,
+   "image": "images/shoes/Dexter Raquel V.jpg"
+ },
+ {
+   "id": 112,
+   "name": "Dexter Ricky IV",
+   "condition": "New",
+   "description": "New in box men's size 13 wide white/black bowling shoes",
+   "price": 40,
+   "image": "images/shoes/Dexter Ricky IV.jpg"
+ },
+ {
+   "id": 113,
+   "name": "Dexter Shoes",
+   "condition": "Used",
+   "description": "Used men's size 9 medium white bowling shoes",
+   "price": 10,
+   "image": "images/shoes/Dexter Shoes.jpg"
+ },
+ {
+   "id": 114,
+   "name": "KR Strikeforce Flyer Lite",
+   "condition": "New",
+   "description": "New in box men's size 6 medium black/red bowling shoes",
+   "price": 40,
+   "image": "images/shoes/KR Strikeforce Flyer Lite.jpg"
+ }
+]

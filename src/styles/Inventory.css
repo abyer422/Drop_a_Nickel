@@ -65,6 +65,10 @@
   border: solid darkred;
 }
 
+.inv-wrap1 img {
+  margin-bottom: 1em;
+}
+
 .inv-wrap1 button {
   background-color: darkred;
   color: black;

@@ -22,7 +22,7 @@ function Navbar() {
 				</Link>
 			</div>
 			<div className="center">
-				<Link to="/login">
+				<Link to="/">
 					<img src={Logo} alt="Logo" />
 				</Link>	
 			</div>

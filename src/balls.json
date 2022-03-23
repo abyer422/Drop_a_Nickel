@@ -1,0 +1,857 @@
+[
+ {
+   "id": 1,
+   "name": "900 Global Boost pearl",
+   "condition": "Used",
+   "description": "Thumb plugged once and moved. Has IT",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/900 Global Boost pearl (2).jpg"
+ },
+ {
+   "id": 2,
+   "name": "900 Global Compass (Limited release ball)",
+   "condition": "Used",
+   "description": "Cracked bridge (no biggie), Interchangeable Thumb and weight hole",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/900 Global Compass (Limited release ball) (2).jpg"
+ },
+ {
+   "id": 3,
+   "name": "900 Global Dream Big Solid",
+   "condition": "Used",
+   "description": "My personal ball. Plugged once. Has IT and weight hole",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/900 Global Dream Big Solid (2).jpg"
+ },
+ {
+   "id": 4,
+   "name": "900 Global Drift",
+   "condition": "Used",
+   "description": "My personal ball. Barely thrown. Cracked bridge but not and issue. Has IT",
+   "price": 60,
+   "weight": "15",
+   "image": "images/used/900 Global Drift (2).jpg"
+ },
+ {
+   "id": 5,
+   "name": "900 Global Drift",
+   "condition": "Used",
+   "description": "Fingers fixed once. Has IT and Xhole. I shot 300 with this ball!!!!",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/900 Global Drift 2 (2).jpg"
+ },
+ {
+   "id": 6,
+   "name": "900 Global Honey Badger (original)",
+   "condition": "Used",
+   "description": "My personal ball. Has IT",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/900 Global Honey Badger (original) (2).jpg"
+ },
+ {
+   "id": 7,
+   "name": "900 Global Infrared",
+   "condition": "Used",
+   "description": "Cover needs a cleaning but the ball is pristine. Has IT",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/900 Global Infrared (2).jpg"
+ },
+ {
+   "id": 8,
+   "name": "900 Global Special Ops",
+   "condition": "Used",
+   "description": "Has Interchangeable thumb and weight hole",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/900 Global Special Ops (2).jpg"
+ },
+ {
+   "id": 9,
+   "name": "900 Global Volt Solid",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 135,
+   "weight": "15",
+   "image": "images/new/900 Global Volt Solid.jpg"
+ },
+ {
+   "id": 10,
+   "name": "900 Global X",
+   "condition": "Used",
+   "description": "2nd drill. Has IT",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/900 Global X (2).jpg"
+ },
+ {
+   "id": 11,
+   "name": "Brunswick Classic Zone",
+   "condition": "Used",
+   "description": "Thumb plugged once. Has IT and weight hole",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Brunswick Classic Zone (2).jpg"
+ },
+ {
+   "id": 12,
+   "name": "Brunswick Johnny Petraglia LT-48",
+   "condition": "Used",
+   "description": "Excellent condition, single drill, barely used",
+   "price": 100,
+   "weight": "15?",
+   "image": "images/used/Brunswick Johnny Petraglia LT-48 (2).jpg"
+ },
+ {
+   "id": 13,
+   "name": "Brunswick Kingpin Gold",
+   "condition": "New",
+   "description": "New in box. Limited edition release",
+   "price": 160,
+   "weight": "15",
+   "image": "images/new/Brunswick Kingpin Gold.jpg"
+ },
+ {
+   "id": 14,
+   "name": "Brunswick Nexus Pearl",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 190,
+   "weight": "15",
+   "image": "images/new/Brunswick Nexus Pearl.jpg"
+ },
+ {
+   "id": 15,
+   "name": "Brunswick Rhino",
+   "condition": "New",
+   "description": "Not sure if this gem is a grey rhino? Need more info to price correctly",
+   "price": 1000,
+   "weight": "15",
+   "image": "images/new/Brunswick Rhino.jpg"
+ },
+ {
+   "id": 16,
+   "name": "Brunswick T-Zone Black_Blue",
+   "condition": "New",
+   "description": "New in box",
+   "price": 45,
+   "weight": "13",
+   "image": "images/new/Brunswick T-Zone Black_Blue.jpg"
+ },
+ {
+   "id": 17,
+   "name": "Brunswick T-Zone Black_Pink",
+   "condition": "New",
+   "description": "New in box",
+   "price": 45,
+   "weight": "9",
+   "image": "images/new/Brunswick T-Zone Black_Pink.jpg"
+ },
+ {
+   "id": 18,
+   "name": "Brunswick T-Zone Ocean Reef",
+   "condition": "New",
+   "description": "New in box",
+   "price": 45,
+   "weight": "14",
+   "image": "images/new/Brunswick T-Zone Ocean Reef.jpg"
+ },
+ {
+   "id": 19,
+   "name": "Brunswick T-Zone Red Sparkle",
+   "condition": "New",
+   "description": "New in box",
+   "price": 45,
+   "weight": "13",
+   "image": "images/new/Brunswick T-Zone Red Sparkle.jpg"
+ },
+ {
+   "id": 20,
+   "name": "Brunswick T-Zone Scarlet Shadow",
+   "condition": "New",
+   "description": "New in box",
+   "price": 45,
+   "weight": "10",
+   "image": "images/new/Brunswick T-Zone Scarlet Shadow.jpg"
+ },
+ {
+   "id": 21,
+   "name": "Columbia 300 Black Knight",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 500,
+   "weight": "16",
+   "image": "images/new/Columbia 300 Black Knight.jpg"
+ },
+ {
+   "id": 22,
+   "name": "Columbia 300 Black Knight",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 500,
+   "weight": "16",
+   "image": "images/new/Columbia 300 Black Knight.jpg"
+ },
+ {
+   "id": 23,
+   "name": "Columbia 300 Chaos green and black",
+   "condition": "Used",
+   "description": "Righty but drilled for backup. Minor scratches from a bag",
+   "price": 40,
+   "weight": "14",
+   "image": "images/used/Columbia 300 Chaos green and black (2).jpg"
+ },
+ {
+   "id": 24,
+   "name": "Columbia 300 Freeze",
+   "condition": "New",
+   "description": "New in box",
+   "price": 60,
+   "weight": "16",
+   "image": "images/new/Columbia 300 Freeze.jpg"
+ },
+ {
+   "id": 25,
+   "name": "Columbia 300 Melt Down",
+   "condition": "Used",
+   "description": "Fully plugged and will drill locally for free",
+   "price": 60,
+   "weight": "14",
+   "image": "images/used/Columbia 300 Melt Down (2).jpg"
+ },
+ {
+   "id": 26,
+   "name": "Columbia 300 N'Sane Antics",
+   "condition": "Used",
+   "description": "Fully plugged and will drill locally for free",
+   "price": 60,
+   "weight": "15",
+   "image": "images/used/Columbia 300 N'Sane Antics (2).jpg"
+ },
+ {
+   "id": 27,
+   "name": "Columbia 300 Take Down",
+   "condition": "Used",
+   "description": "Plugged and drilled once in almost same spot",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/Columbia 300 Take Down (2).jpg"
+ },
+ {
+   "id": 28,
+   "name": "DV8 Dude",
+   "condition": "Used",
+   "description": "Has IT. Used as a light weight practice ball",
+   "price": 10,
+   "weight": "11",
+   "image": "images/used/DV8 Dude (2).jpg"
+ },
+ {
+   "id": 29,
+   "name": "Ebonite Aero",
+   "condition": "New",
+   "description": "New in box",
+   "price": 165,
+   "weight": "15",
+   "image": "images/new/Ebonite Aero.jpg"
+ },
+ {
+   "id": 30,
+   "name": "Ebonite Choice Pearl",
+   "condition": "Used",
+   "description": "Could use light resurface",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/Ebonite Choice Pearl (2).jpg"
+ },
+ {
+   "id": 31,
+   "name": "Ebonite Choice Solid",
+   "condition": "New",
+   "description": "Was mis-drilled and fully plugged. Has never gone down a lane",
+   "price": 100,
+   "weight": "15",
+   "image": "images/new/Ebonite Choice Solid.jpg"
+ },
+ {
+   "id": 32,
+   "name": "Ebonite Game Breaker 2",
+   "condition": "Used",
+   "description": "Minor hairline cracking around fingers. Easily fixable. Plugged weighthole",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Ebonite Game Breaker 2 (2).jpg"
+ },
+ {
+   "id": 33,
+   "name": "Ebonite Golden One",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 500,
+   "weight": "15",
+   "image": "images/new/Ebonite Golden One.jpg"
+ },
+ {
+   "id": 34,
+   "name": "Ebonite Gyro 2",
+   "condition": "New",
+   "description": "Drilled but never thrown. In perfect condition. Willing to take offers",
+   "price": 250,
+   "weight": "15",
+   "image": "images/new/Ebonite Gyro 2.jpg"
+ },
+ {
+   "id": 35,
+   "name": "Ebonite Gyro XL5 (rubber!)",
+   "condition": "Used",
+   "description": "This RUBBER gem was used as a spareball. Great collectors item. SINGLE DRILL",
+   "price": 80,
+   "weight": "15",
+   "image": "images/used/Ebonite Gyro XL5 (rubber!) (2).jpg"
+ },
+ {
+   "id": 36,
+   "name": "Ebonite Maverick Pearl",
+   "condition": "Used",
+   "description": "Cracked bridge (easily fixable/not an issue)",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/Ebonite Maverick Pearl (2).jpg"
+ },
+ {
+   "id": 37,
+   "name": "Ebonite Omni",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 150,
+   "weight": "15",
+   "image": "images/new/Ebonite Omni.jpg"
+ },
+ {
+   "id": 38,
+   "name": "Ebonite V2",
+   "condition": "New",
+   "description": "Limited release 2019 edition. Willing to take offers",
+   "price": 150,
+   "weight": "15",
+   "image": "images/new/Ebonite V2.jpg"
+ },
+ {
+   "id": 39,
+   "name": "Ebonite V2",
+   "condition": "New",
+   "description": "Limited release 2019 edition. Willing to take offers",
+   "price": 150,
+   "weight": "15",
+   "image": "images/new/Ebonite V2.jpg"
+ },
+ {
+   "id": 40,
+   "name": "Ebonite V2",
+   "condition": "New",
+   "description": "Limited release 2019 edition. Willing to take offers",
+   "price": 150,
+   "weight": "15",
+   "image": "images/new/Ebonite V2.jpg"
+ },
+ {
+   "id": 41,
+   "name": "Hammer Black Widow Black and Gold",
+   "condition": "Used",
+   "description": "Has Interchangeable Thumb",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Hammer Black Widow Black and Gold (2).jpg"
+ },
+ {
+   "id": 42,
+   "name": "Hammer Black Widow Gold",
+   "condition": "Used",
+   "description": "Pin drilled out in ring finger",
+   "price": 30,
+   "weight": "13",
+   "image": "images/used/Hammer Black Widow Gold (2).jpg"
+ },
+ {
+   "id": 43,
+   "name": "Hammer Black Widow Legend",
+   "condition": "New",
+   "description": "New but no box",
+   "price": 250,
+   "weight": "15",
+   "image": "images/new/Hammer Black Widow Legend.jpg"
+ },
+ {
+   "id": 44,
+   "name": "Hammer Black Widow Red Legend",
+   "condition": "Used",
+   "description": "Fully plugged once from lefty to righty",
+   "price": 20,
+   "weight": "14",
+   "image": "images/used/Hammer Black Widow Red Legend (2).jpg"
+ },
+ {
+   "id": 45,
+   "name": "Hammer Black Widow Urethane",
+   "condition": "New",
+   "description": "New in box",
+   "price": 350,
+   "weight": "14",
+   "image": "images/new/Hammer Black Widow Urethane.jpg"
+ },
+ {
+   "id": 46,
+   "name": "Hammer Diesel Torque (demo ball)",
+   "condition": "Used",
+   "description": "It was a demo ball but can be made like new again",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Hammer Diesel Torque (demo ball) (2).jpg"
+ },
+ {
+   "id": 47,
+   "name": "Hammer Fierce Phobia",
+   "condition": "Used",
+   "description": "Has Switch Grip and scribe lines",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Hammer Fierce Phobia (2).jpg"
+ },
+ {
+   "id": 48,
+   "name": "Hammer Fierce Phobia",
+   "condition": "Used",
+   "description": "Has Interchangeable Thumb",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Hammer Fierce Phobia 2 (2).jpg"
+ },
+ {
+   "id": 49,
+   "name": "Hammer Gauntlet Survivor Edition",
+   "condition": "New",
+   "description": "Limited edition release available only from the Jr. Gold Survivor tournament",
+   "price": 250,
+   "weight": "15",
+   "image": "images/new/Hammer Gauntlet Survivor Edition.jpg"
+ },
+ {
+   "id": 50,
+   "name": "Hammer Rebel Yell (demo ball) #1",
+   "condition": "Used",
+   "description": "It was a demo ball but in good condition!",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Hammer Rebel Yell (demo ball) (2).jpg"
+ },
+ {
+   "id": 51,
+   "name": "Hammer Rebel Yell (demo ball) #2",
+   "condition": "Used",
+   "description": "It was a demo ball but in good condition!",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Hammer Rebel Yell (demo ball) 2 (2).jpg"
+ },
+ {
+   "id": 52,
+   "name": "Hammer Ruthless",
+   "condition": "Used",
+   "description": "Righty but drilled for backup",
+   "price": 40,
+   "weight": "14",
+   "image": "images/used/Hammer Ruthless (2).jpg"
+ },
+ {
+   "id": 53,
+   "name": "Hammer Scandal Survivor Edition",
+   "condition": "Used",
+   "description": "Limited Edition. Available only through Jr. Gold Survivor tournament",
+   "price": 20,
+   "weight": "13",
+   "image": "images/used/Hammer Scandal Survivor Edition (2).jpg"
+ },
+ {
+   "id": 54,
+   "name": "Hammer Scandal/S (demo ball)",
+   "condition": "Used",
+   "description": "It was a demo ball but in good condition!",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Hammer Scandal_s (2).jpg"
+ },
+ {
+   "id": 55,
+   "name": "Hammer Statement Hybrid",
+   "condition": "New",
+   "description": "Was mis-drilled and fully plugged. Has never gone down a lane",
+   "price": 100,
+   "weight": "15",
+   "image": "images/new/Hammer Statement Hybrid.jpg"
+ },
+ {
+   "id": 56,
+   "name": "Hammer Statement Solid",
+   "condition": "Used",
+   "description": "My personal ball. Has Switch Grip",
+   "price": 40,
+   "weight": "14",
+   "image": "images/used/Hammer Statement Solid (2).jpg"
+ },
+ {
+   "id": 57,
+   "name": "Hammer The Sauce",
+   "condition": "Used",
+   "description": "My personal ball. Has Switch Grip",
+   "price": 40,
+   "weight": "14",
+   "image": "images/used/Hammer The Sauce (2).jpg"
+ },
+ {
+   "id": 58,
+   "name": "Hammer Web Tour Edition",
+   "condition": "Used",
+   "description": "Drilled for lefty",
+   "price": 60,
+   "weight": "15",
+   "image": "images/used/Hammer Web Tour Edition (2).jpg"
+ },
+ {
+   "id": 59,
+   "name": "Motiv Primal Rage",
+   "condition": "Used",
+   "description": "Fingers plugged and drilled in same spot. Thumb span changed twice. Needs a resurface",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Motiv Primal Rage (2).jpg"
+ },
+ {
+   "id": 60,
+   "name": "Quantum Jade Tour",
+   "condition": "New",
+   "description": "Original gem (not the remake) Willing to take offers",
+   "price": 500,
+   "weight": "15",
+   "image": "images/new/Quantum Jade Tour.jpg"
+ },
+ {
+   "id": 61,
+   "name": "Radical Beyond Ridiculous",
+   "condition": "Used",
+   "description": "Pin drilled out in ring finger",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/Radical Beyond Ridiculous (2).jpg"
+ },
+ {
+   "id": 62,
+   "name": "Radical Conspiracy Theory",
+   "condition": "Used",
+   "description": "Minor scratches from a bag",
+   "price": 30,
+   "weight": "14",
+   "image": "images/used/Radical Conspiracy Theory (2).jpg"
+ },
+ {
+   "id": 63,
+   "name": "Radical Squatch Hybrid",
+   "condition": "Used",
+   "description": "Like new after a small cleaning",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Radical Squatch Hybrid (2).jpg"
+ },
+ {
+   "id": 64,
+   "name": "Radical Zing Solid",
+   "condition": "Used",
+   "description": "Needs a minor resurface and then will be in excellent condition",
+   "price": 20,
+   "weight": "14",
+   "image": "images/used/Radical Zing Solid (2).jpg"
+ },
+ {
+   "id": 65,
+   "name": "Roto Grip Critical Theory",
+   "condition": "Used",
+   "description": "Excellent classic ball",
+   "price": 40,
+   "weight": "14",
+   "image": "images/used/Roto Grip Critical Theory (2).jpg"
+ },
+ {
+   "id": 66,
+   "name": "Roto Grip Hot Cell",
+   "condition": "Used",
+   "description": "Asymmetric urethane",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Roto Grip Hot Cell (2).jpg"
+ },
+ {
+   "id": 67,
+   "name": "Roto Grip Hustle Hybrid",
+   "condition": "Used",
+   "description": "Drilled for 2 finger and weight hole",
+   "price": 40,
+   "weight": "14",
+   "image": "images/used/Roto Grip Hustle Hybrid (2).jpg"
+ },
+ {
+   "id": 68,
+   "name": "Roto Grip Hustle INK",
+   "condition": "Used",
+   "description": "Plugged weight hole and cracked bridge (easily fixed/non issue)",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Roto Grip Hustle INK (2).jpg"
+ },
+ {
+   "id": 69,
+   "name": "Roto Grip Idol",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 200,
+   "weight": "14",
+   "image": "images/new/Roto Grip Idol.jpg"
+ },
+ {
+   "id": 70,
+   "name": "Roto Grip Infinite Theory",
+   "condition": "Used",
+   "description": "Fully plugged and will drill locally for free",
+   "price": 60,
+   "weight": "15",
+   "image": "images/used/Roto Grip Infinite Theory (2).jpg"
+ },
+ {
+   "id": 71,
+   "name": "Roto Grip Outlaw",
+   "condition": "New",
+   "description": "Willing to take offers. From 2011 with box",
+   "price": 270,
+   "weight": "15",
+   "image": "images/new/Roto Grip Outlaw.jpg"
+ },
+ {
+   "id": 72,
+   "name": "Roto Grip Show Off",
+   "condition": "Used",
+   "description": "Lefty drill",
+   "price": 10,
+   "weight": "14",
+   "image": "images/used/Roto Grip Show Off (2).jpg"
+ },
+ {
+   "id": 73,
+   "name": "Storm Astro Physix",
+   "condition": "New",
+   "description": "New in box. Willing to take offers",
+   "price": 250,
+   "weight": "15",
+   "image": "images/new/Storm Astro Physix.jpg"
+ },
+ {
+   "id": 74,
+   "name": "Storm Code Red",
+   "condition": "Used",
+   "description": "Thumb plugged once for nub hole. Small crack inside nub hole. Easily fixed",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Storm Code Red (2).jpg"
+ },
+ {
+   "id": 75,
+   "name": "Storm Drive",
+   "condition": "Used",
+   "description": "Cover is in great shape",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Storm Drive (2).jpg"
+ },
+ {
+   "id": 76,
+   "name": "Storm Electrify Hybrid",
+   "condition": "New",
+   "description": "New in box",
+   "price": 100,
+   "weight": "15",
+   "image": "images/new/Storm Electrify Hybrid.jpg"
+ },
+ {
+   "id": 77,
+   "name": "Storm Eraser Blaze (old gem from 2002)",
+   "condition": "Used",
+   "description": "Needs some TLC!!! But a good find for anyone (myself included) that loved this ball back in the day",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Storm Eraser Blaze (old gem from 2002) (2).jpg"
+ },
+ {
+   "id": 78,
+   "name": "Storm Hy-Road 2015",
+   "condition": "New",
+   "description": "New in box",
+   "price": 120,
+   "weight": "15",
+   "image": "images/new/Storm Hy-Road 2015.jpg"
+ },
+ {
+   "id": 79,
+   "name": "Storm Hy-Road Pearl",
+   "condition": "Used",
+   "description": "Bad condition, drilled for lefty and has interchangeable thumb",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Storm Hy-Road Pearl (2).jpg"
+ },
+ {
+   "id": 80,
+   "name": "Storm IQ Tour 30th Anniversary",
+   "condition": "Used",
+   "description": "Fingers plugged once to lengthen span",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Storm IQ Tour 30th Anniversary (2).jpg"
+ },
+ {
+   "id": 81,
+   "name": "Storm IQ Tour Solid",
+   "condition": "New",
+   "description": "My baby. Will never sell",
+   "price": 1000,
+   "weight": "15",
+   "image": "images/new/Storm IQ Tour Solid.jpg"
+ },
+ {
+   "id": 82,
+   "name": "Storm Marvel Pearl",
+   "condition": "New",
+   "description": "2014 gem. Willing to take offers",
+   "price": 300,
+   "weight": "15",
+   "image": "images/new/Storm Marvel Pearl.jpg"
+ },
+ {
+   "id": 83,
+   "name": "Storm Marvel Pearl",
+   "condition": "Used",
+   "description": "Thumb plugged once for nub hole",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Storm Marvel Pearl (2).jpg"
+ },
+ {
+   "id": 84,
+   "name": "Storm Marvel Pearl",
+   "condition": "Used",
+   "description": "Bad condition, drilled for lefty and has interchangeable thumb",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Storm Marvel Pearl 2 (2).jpg"
+ },
+ {
+   "id": 85,
+   "name": "Storm Marvel S",
+   "condition": "New",
+   "description": "2015 gem. Willing to take offers",
+   "price": 300,
+   "weight": "15",
+   "image": "images/new/Storm Marvel S.jpg"
+ },
+ {
+   "id": 86,
+   "name": "Storm Mix (spare ball)",
+   "condition": "Used",
+   "description": "Lightly used spare ball",
+   "price": 20,
+   "weight": "14",
+   "image": "images/used/Storm Mix (spare ball) (2).jpg"
+ },
+ {
+   "id": 87,
+   "name": "Storm Spare",
+   "condition": "New",
+   "description": "Old gem plastic spare",
+   "price": 80,
+   "weight": "16",
+   "image": "images/new/Storm Spare.jpg"
+ },
+ {
+   "id": 88,
+   "name": "Storm Street Fight",
+   "condition": "Used",
+   "description": "Fully Plugged once to change layout",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/Storm Street Fight (2).jpg"
+ },
+ {
+   "id": 89,
+   "name": "Storm Timeless",
+   "condition": "Used",
+   "description": "Thumb plugged once for nub hole. Ring finger drilled extra deep",
+   "price": 30,
+   "weight": "15",
+   "image": "images/used/Storm Timeless (2).jpg"
+ },
+ {
+   "id": 90,
+   "name": "Storm Timeless",
+   "condition": "Used",
+   "description": "Bad condition, drilled for lefty and has interchangeable thumb",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Storm Timeless 2 (2).jpg"
+ },
+ {
+   "id": 91,
+   "name": "Storm Torrent",
+   "condition": "Used",
+   "description": "Bad condition, drilled for lefty and has interchangeable thumb",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Storm Torrent (2).jpg"
+ },
+ {
+   "id": 92,
+   "name": "Storm Victory Road pearl",
+   "condition": "Used",
+   "description": "",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Storm Victory Road pearl (2).jpg"
+ },
+ {
+   "id": 93,
+   "name": "Track 503T",
+   "condition": "Used",
+   "description": "Great shape for older ball",
+   "price": 20,
+   "weight": "15",
+   "image": "images/used/Track 503T (2).jpg"
+ },
+ {
+   "id": 94,
+   "name": "Track Legion Solid",
+   "condition": "Used",
+   "description": "Needs a resurface because it was in a bag that scratched it up. Will be like new when resurfaced. Excellent ball",
+   "price": 40,
+   "weight": "15",
+   "image": "images/used/Track Legion Solid (2).jpg"
+ },
+ {
+   "id": 95,
+   "name": "Track Paradox V (demo ball)",
+   "condition": "Used",
+   "description": "It was a demo ball but in good condition!",
+   "price": 10,
+   "weight": "15",
+   "image": "images/used/Track Paradox V (demo ball) (2).jpg"
+ }
+]
